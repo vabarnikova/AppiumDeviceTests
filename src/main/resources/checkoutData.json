@@ -1,0 +1,33 @@
+{
+  "errorApplyingMessage": "The coupon code you entered couldn't be applied to your order",
+  "incorrectCoupon": "123456",
+  "incorrectGiftCard": "987654",
+
+  "cardNumber": "4111 1111 4555 1142",
+  "cardHolderName": "Vitaliy Astahov",
+  "cardCode": "737",
+  "correctEmail": "v.abarnikova2017@gmail.com",
+  "correctPassword": "1234567",
+
+  "shippingFirstName": "Vladimir",
+  "shippingLastName": "Ulianov",
+  "shippingEmail": "ulianov2021@gmail.com",
+  "shippingCity": "Miami",
+  "shippingAddress": "Gray, FL",
+  "shippingCode": "74354",
+  "shippingPhone": "561-364-5318",
+
+  "billingFirstName": "Alex",
+  "billingLastName": "Astahov",
+  "billingEmail" : "v.abarnikova2017@gmail.com",
+  "billingCity": "Orlando",
+  "billingAddress": "Apopka, FL",
+  "billingCode": "32703",
+  "billingPhone":"386-878-2449",
+  "billingMethodPurchaseOrder": "Purchase Order",
+  "billingMethodCashOnDelivery": "Cash On Delivery (COD)",
+  "billingMethodCheckMoneyOrder": "Check / Money Order",
+
+  "purchaseNumber": "4567890"
+}
+

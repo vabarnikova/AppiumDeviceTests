@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="FirstSuite" verbose="1">
+    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+    <test name="LogInTests">
+        <classes>
+            <class name="LogInPageTests"></class>
+        </classes>
+    </test>
+    <test name="RegistrationTests">
+        <classes>
+            <class name="RegisterPageTests"></class>
+        </classes>
+    </test>
+    <test name="CartPageFunctionsTesting">
+        <classes>
+            <class name="ShoppingCartTests"></class>
+            <class name="ItemDetailsPageTests"></class>
+            <class name="MessageToFriendPageTests"></class>
+            <class name="CompareListPageTests"></class>
+            <class name="CheckoutTests"></class>
+        </classes>
+    </test>
+    <test name="MainPageFunctionsTesting">
+        <classes>
+            <class name="MainShopPageTests"></class>
+            <class name="BooksCategoryTests"></class>
+        </classes>
+    </test>
+</suite>
